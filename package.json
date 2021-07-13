@@ -1,0 +1,21 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-polyfill": "^6.26.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
